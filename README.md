@@ -8,7 +8,7 @@ GST invoices, purchasing, customer credit, supplier balances, reports, notes,
 and reminders. It is designed for dependable store operations even when the
 internet is unavailable.
 
-**[Download the latest signed Windows release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)** · **[View release history](https://github.com/Elathi/elathi-smartpos-releases/releases)** · **[Visit elathi.xyz](https://elathi.xyz/)**
+**[Download the latest signed Windows release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)** Â· **[View release history](https://github.com/Elathi/elathi-smartpos-releases/releases)** Â· **[Visit elathi.xyz](https://elathi.xyz/)**
 
 > This repository publishes signed SmartPOS installers and updater manifests.
 > A stable download is shown below only after the release owner publishes one.
@@ -21,14 +21,14 @@ internet is unavailable.
 
 ## Feature highlights
 
-- **POS billing and payments** — barcode scanning, product search, batch-aware selling, cash/UPI/card/wallet payments, credit bills, returns, and customer display support.
-- **Inventory and batch tracking** — product pricing, stock types, batches/lots, expiry management, FEFO, stock counts, repacking, barcode labels, and price history.
-- **GST invoicing and receipts** — configurable GST, invoice templates, thermal/page previews, PDF/print paths, e-invoice support, and localized receipt text.
-- **Suppliers and purchase bills** — purchase orders, receiving, supplier ledgers, payment allocation, batch identities, and outstanding-liability reporting.
-- **Customers, credit, and loyalty** — customer history, account due, payments, loyalty tiers, rewards, and customer-facing receipts.
-- **Reports and analytics** — sales/profit, tax, purchasing, inventory, cash reconciliation, dashboard KPIs, and actionable low-stock signals.
-- **Calendar, notes, and reminders** — scheduled notes, quick calendar notes, supplier visits, follow-ups, and reminder notifications.
-- **Signed updates and data safety** — signed Windows updates, safe-idle installation, in-place upgrades, backups, privacy blur, and offline-first storage.
+- **POS billing and payments** â€” barcode scanning, product search, batch-aware selling, cash/UPI/card/wallet payments, credit bills, returns, and customer display support.
+- **Inventory and batch tracking** â€” product pricing, stock types, batches/lots, expiry management, FEFO, stock counts, repacking, barcode labels, and price history.
+- **GST invoicing and receipts** â€” configurable GST, invoice templates, thermal/page previews, PDF/print paths, e-invoice support, and localized receipt text.
+- **Suppliers and purchase bills** â€” purchase orders, receiving, supplier ledgers, payment allocation, batch identities, and outstanding-liability reporting.
+- **Customers, credit, and loyalty** â€” customer history, account due, payments, loyalty tiers, rewards, and customer-facing receipts.
+- **Reports and analytics** â€” sales/profit, tax, purchasing, inventory, cash reconciliation, dashboard KPIs, and actionable low-stock signals.
+- **Calendar, notes, and reminders** â€” scheduled notes, quick calendar notes, supplier visits, follow-ups, and reminder notifications.
+- **Signed updates and data safety** â€” signed Windows updates, safe-idle installation, in-place upgrades, backups, privacy blur, and offline-first storage.
 
 ## Product tour
 
@@ -96,7 +96,7 @@ customer credentials, personal phone numbers, or production business data.
 2. Install SmartPOS on the store workstation. Windows may ask for confirmation because the installer is downloaded from GitHub.
 3. On an existing installation, close active sales and take a backup before upgrading.
 4. SmartPOS verifies the updater signature and preserves the local database during an in-place upgrade.
-5. After installation, use **Settings → Updates** or the top-bar update control to check the signed manifest.
+5. After installation, use **Settings â†’ Updates** or the top-bar update control to check the signed manifest.
 
 Never replace an installer or signature with a file from an unofficial mirror.
 The updater waits for a safe idle state and does not restart over an active sale.
@@ -104,7 +104,7 @@ The updater waits for a safe idle state and does not restart over an active sale
 ## Browser showcase
 
 Run the browser preview with `?showcase=1` to explore deterministic fictional
-records for screenshots and product review. The banner reads **Demo mode · Read
+records for screenshots and product review. The banner reads **Demo mode Â· Read
 only**. Reloading resets the fixture; mutating actions are intentionally
 blocked. The installed Tauri application ignores this flag and always uses the
 native store bridge.
@@ -121,10 +121,18 @@ native store bridge.
 <!-- SMARTPOS_RELEASES_MANAGED_START -->
 ## Signed releases
 
-No stable release has been published to this repository yet. This section will be updated automatically when the next signed SmartPOS release is published.
+The latest stable release is **v3.40.9** (overview refreshed
+2026-09-23 UTC).
 
-- [Release history](https://github.com/Elathi/elathi-smartpos-releases/releases)
-- [Updater manifest](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/latest.json) (available after the first stable release)
+- [Download the latest signed Windows release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)
+- [Stable update manifest](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/latest.json)
+- [Read the current release notes](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v3.40.9)
+- Existing installations can use **Settings â†’ Updates** or the global update control.
+- SmartPOS verifies the signed updater and preserves the local database during in-place upgrades.
 
-Published installers, signatures, and manifests remain immutable. SmartPOS verifies signatures before installation and preserves the local store database during upgrades.
+Release-specific compatibility and migration notes are maintained in the
+matching GitHub release body. If this repository has no published release yet,
+the release owner should leave this managed section at its pre-release state
+until the first signed publication completes.
+
 <!-- SMARTPOS_RELEASES_MANAGED_END -->
