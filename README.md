@@ -1,39 +1,25 @@
 <!-- SMARTPOS_LANDING_START -->
 # Elathi SmartPOS
 
-## Offline-first retail intelligence for everyday stores
+## A calm, capable point of sale for growing stores
 
-Elathi SmartPOS is a Windows point-of-sale workspace for billing, inventory,
-GST invoices, purchasing, customer credit, supplier balances, reports, notes,
-and reminders. It is designed for dependable store operations even when the
-internet is unavailable.
+Elathi SmartPOS brings billing, inventory, purchasing, customer accounts, supplier tracking, reporting, and signed Windows updates into one dependable retail workspace.
 
-**[Download the latest signed Windows release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)** Â· **[View release history](https://github.com/Elathi/elathi-smartpos-releases/releases)** Â· **[Visit elathi.xyz](https://elathi.xyz/)**
+**[Download the latest signed release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)** | **[View release history](https://github.com/Elathi/elathi-smartpos-releases/releases)** | **[Visit elathi.xyz](https://elathi.xyz/)**
 
-> This repository publishes signed SmartPOS installers and updater manifests.
-> A stable download is shown below only after the release owner publishes one.
+> This repository publishes official signed Windows installers and update manifests. A latest download appears after the release owner publishes the first stable release.
 
-## Why stores use SmartPOS
+## Built for daily retail work
 
-| POS billing | Inventory control | Retail visibility |
-| --- | --- | --- |
-| Fast barcode and catalog billing, multiple payments, returns, discounts, and receipts | Product pricing, batches, expiry, FEFO, stock movements, repacking, and labels | Supplier/customer balances, purchase bills, sales profit, GST reports, and operational reminders |
+- **Fast checkout** - barcode and product search, discounts, returns, multiple payment methods, credit sales, and receipts.
+- **Stock you can trust** - products, pricing, batches, expiry tracking, stock counts, and purchase history.
+- **Professional invoices** - GST-ready billing, configurable receipts, invoice previews, and print/PDF workflows.
+- **Clear business follow-up** - customer balances, supplier dues, purchase bills, reports, notes, and reminders.
+- **Protected upgrades** - signed releases, safe installation, backup guidance, and local store-data preservation.
 
-## Feature highlights
+## Product showcase
 
-- **POS billing and payments** â€” barcode scanning, product search, batch-aware selling, cash/UPI/card/wallet payments, credit bills, returns, and customer display support.
-- **Inventory and batch tracking** â€” product pricing, stock types, batches/lots, expiry management, FEFO, stock counts, repacking, barcode labels, and price history.
-- **GST invoicing and receipts** â€” configurable GST, invoice templates, thermal/page previews, PDF/print paths, e-invoice support, and localized receipt text.
-- **Suppliers and purchase bills** â€” purchase orders, receiving, supplier ledgers, payment allocation, batch identities, and outstanding-liability reporting.
-- **Customers, credit, and loyalty** â€” customer history, account due, payments, loyalty tiers, rewards, and customer-facing receipts.
-- **Reports and analytics** â€” sales/profit, tax, purchasing, inventory, cash reconciliation, dashboard KPIs, and actionable low-stock signals.
-- **Calendar, notes, and reminders** â€” scheduled notes, quick calendar notes, supplier visits, follow-ups, and reminder notifications.
-- **Signed updates and data safety** â€” signed Windows updates, safe-idle installation, in-place upgrades, backups, privacy blur, and offline-first storage.
-
-## Product tour
-
-The gallery uses fictional, read-only browser showcase data. It contains no
-customer credentials, personal phone numbers, or production business data.
+The gallery uses fictional, read-only showcase data. It contains no customer credentials, personal phone numbers, or production business data.
 
 | Dashboard | POS billing |
 | --- | --- |
@@ -41,80 +27,35 @@ customer credentials, personal phone numbers, or production business data.
 
 | Products and inventory | Customers and suppliers |
 | --- | --- |
-| ![SmartPOS compact products table](showcase/products.webp) | ![SmartPOS customer and supplier workspace](showcase/customers-suppliers.webp) |
+| ![SmartPOS products workspace](showcase/products.webp) | ![SmartPOS customer and supplier workspace](showcase/customers-suppliers.webp) |
 
 | Saved bills and analytics | Reports |
 | --- | --- |
-| ![SmartPOS saved bills and profit analytics](showcase/saved-bills.webp) | ![SmartPOS reports workspace](showcase/reports.webp) |
+| ![SmartPOS saved bills and analytics](showcase/saved-bills.webp) | ![SmartPOS reports workspace](showcase/reports.webp) |
 
-| Calendar and notes |
+| Calendar and reminders |
 | --- |
-| ![SmartPOS calendar with notes and reminders](showcase/calendar-notes.webp) |
+| ![SmartPOS calendar and reminders](showcase/calendar-notes.webp) |
 
-## Detailed feature list
-
-<details>
-<summary>Billing, checkout, and customer display</summary>
-
-- Barcode, SKU, name, alternate-barcode, and typo-tolerant product search.
-- Comfortable cashier cart tables with quantity, UOM, discount, tax, MRP, and sale controls.
-- Batch/variant selection when the same barcode has multiple sellable identities.
-- Split payment, held bills, credit, returns, gift packing, and bill-level charges.
-- Customer display presentation with cart, payment, offers, and promotional media.
-</details>
-
-<details>
-<summary>Catalog, stock, purchasing, and suppliers</summary>
-
-- General, batch/lot, packing, size/color, and serial/IMEI stock workflows.
-- Purchase orders, receiving, bill linking, supplier payment history, and purchase analytics.
-- Expiry/FEFO workflows, cycle counts, stock adjustments, repacks, and label printing.
-- Compact back-office tables with all-column detail grids at narrow desktop widths.
-</details>
-
-<details>
-<summary>Invoices, tax, and reporting</summary>
-
-- GST-inclusive and GST-exclusive calculations with CGST/SGST/IGST presentation.
-- Invoice Designer settings shared across previews, saved bills, PDF, page, and thermal output.
-- Sales, profit, inventory, procurement, tax, cash, and operational reports.
-- Export and Tally-oriented workflows where available in the installed app.
-</details>
-
-<details>
-<summary>Offline-first operations and safety</summary>
-
-- Local business database and typed native bridge for the installed application.
-- Signed release artifacts with signature verification before installation.
-- Existing store data is preserved during in-place upgrades; back up before major changes.
-- Browser `?showcase=1` is a read-only visual preview only and is never a business database.
-</details>
-
-## Installation and upgrades
+## Download and upgrade safely
 
 1. Open the latest release and download the signed Windows installer.
-2. Install SmartPOS on the store workstation. Windows may ask for confirmation because the installer is downloaded from GitHub.
-3. On an existing installation, close active sales and take a backup before upgrading.
-4. SmartPOS verifies the updater signature and preserves the local database during an in-place upgrade.
-5. After installation, use **Settings â†’ Updates** or the top-bar update control to check the signed manifest.
+2. Close or hold active sales and take a backup before upgrading an existing store.
+3. Install SmartPOS over the existing installation when Windows prompts you.
+4. Use **Settings -> Updates** or the top-bar update control to check the official signed channel.
 
-Never replace an installer or signature with a file from an unofficial mirror.
-The updater waits for a safe idle state and does not restart over an active sale.
+SmartPOS verifies signed updates before installation and preserves the local store database during the normal in-place upgrade path. Do not use installers or signatures from unofficial mirrors.
 
-## Browser showcase
+## Browser preview
 
-Run the browser preview with `?showcase=1` to explore deterministic fictional
-records for screenshots and product review. The banner reads **Demo mode Â· Read
-only**. Reloading resets the fixture; mutating actions are intentionally
-blocked. The installed Tauri application ignores this flag and always uses the
-native store bridge.
+The optional `?showcase=1` browser preview is a read-only visual demonstration using fictional records. It is intended for product review and screenshots, not business operations or data storage.
 
 ## Support and product links
 
-- **Release history and signed downloads:** [GitHub Releases](https://github.com/Elathi/elathi-smartpos-releases/releases)
+- **Signed downloads and release history:** [GitHub Releases](https://github.com/Elathi/elathi-smartpos-releases/releases)
 - **Stable updater manifest:** [`latest.json`](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/latest.json)
 - **Product website:** [elathi.xyz](https://elathi.xyz/)
-- **Operator help:** use the in-app Guide and contextual help in SmartPOS.
+- **Contact and support:** [elathi.xyz/contact](https://elathi.xyz/contact/)
 
 <!-- SMARTPOS_LANDING_END -->
 
