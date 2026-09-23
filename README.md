@@ -116,25 +116,6 @@ native store bridge.
 - **Product website:** [elathi.xyz](https://elathi.xyz/)
 - **Operator help:** use the in-app Guide and contextual help in SmartPOS.
 
-<!-- SMARTPOS_RELEASES_MANAGED_START -->
-## Signed releases
-
-The latest stable release is **v3.40.8** (overview refreshed
-23 September 2026 UTC).
-
-- [Download the latest signed Windows release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)
-- [Stable update manifest](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/latest.json)
-- [Read the current release notes](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v3.40.8)
-- Existing installations can use **Settings → Updates** or the global update control.
-- SmartPOS verifies the signed updater and preserves the local database during in-place upgrades.
-
-Release-specific compatibility and migration notes are maintained in the
-matching GitHub release body. If this repository has no published release yet,
-the release owner should leave this managed section at its pre-release state
-until the first signed publication completes.
-
-<!-- SMARTPOS_RELEASES_MANAGED_END -->
-
 <!-- SMARTPOS_LANDING_END -->
 
 <!-- SMARTPOS_RELEASES_MANAGED_START -->
