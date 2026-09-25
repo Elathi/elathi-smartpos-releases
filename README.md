@@ -62,11 +62,11 @@ The optional `?showcase=1` browser preview is a read-only visual demonstration u
 <!-- SMARTPOS_RELEASES_MANAGED_START -->
 ## Signed releases
 
-The latest stable release is **v3.40.42** (overview refreshed 2026-09-25 UTC).
+The latest stable release is **v3.40.43** (overview refreshed 2026-09-25 UTC).
 
 - [Download the latest signed Windows release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)
 - [Stable update manifest](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/latest.json)
-- [Read the current release notes](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v3.40.42)
+- [Read the current release notes](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v3.40.43)
 - Existing installations can use **Settings -> Updates** or the global update control.
 - SmartPOS verifies the signed updater and preserves the local store database during in-place upgrades.
 
