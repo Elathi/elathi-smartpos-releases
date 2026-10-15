@@ -1,75 +1,74 @@
 <!-- SMARTPOS_LANDING_START -->
 # Elathi SmartPOS
 
-## A calm, capable point of sale for growing stores
+## Billing and stock software for Indian shops, on your own PC
 
-Elathi SmartPOS brings billing, inventory, purchasing, customer accounts, supplier tracking, reporting, and signed Windows updates into one dependable retail workspace.
+Elathi SmartPOS runs billing, GST bills, stock, purchases, customer credit, orders and reports on a Windows PC in your shop. It keeps working without internet, and extra counters connect to the main PC over your shop's Wi-Fi or LAN.
 
-**[Download the latest signed release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)** | **[View release history](https://github.com/Elathi/elathi-smartpos-releases/releases)** | **[Visit elathi.xyz](https://elathi.xyz/)**
+### [⬇ Download for Windows](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/Elathi-SmartPOS-Setup.exe)
 
-> This repository publishes official signed Windows installers and update manifests. A latest download appears after the release owner publishes the first stable release.
+Latest version **v4.16.0** · Windows 10 or 11 (64-bit) · Free trial · [What's new](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v4.16.0) · [elathi.xyz](https://elathi.xyz/)
 
-## Built for daily retail work
+## What it does
 
-- **Fast checkout** - barcode and product search, discounts, returns, multiple payment methods, credit sales, and receipts.
-- **Stock you can trust** - products, pricing, batches, expiry tracking, stock counts, and purchase history.
-- **Professional invoices** - GST-ready billing, configurable receipts, invoice previews, and print/PDF workflows.
-- **Clear business follow-up** - customer balances, supplier dues, purchase bills, reports, notes, and reminders.
-- **Protected upgrades** - signed releases, safe installation, backup guidance, and local store-data preservation.
+- **Fast billing**: barcode or name search, pack sizes, discounts, returns, quotes, held bills, split payments, credit and loyalty points.
+- **Bill by voice**: speak items in Tamil, Hindi, Telugu, Kannada, Malayalam or English, even without internet (optional voice pack), or use your phone as the microphone.
+- **GST bills your way**: thermal receipts that fit your printer, A4 invoices for B2B, and ready-made designs you can preview and set as default.
+- **Stock you can trust**: batches, expiry, MRP and sale price, stock counts, and archive that cleans up after the days you choose.
+- **Purchases**: purchase bills with GST, supplier payments and advances, returns, and purchase orders you can print for the supplier's agent.
+- **Customers and orders**: credit due with reminders, and WhatsApp, phone and online-store orders from new to delivered.
+- **Reports and backups**: daily sales, profit and GST reports, the cash drawer, and backups you control.
 
-## Product showcase
+## Screens
 
-The gallery uses fictional, read-only showcase data. It contains no customer credentials, personal phone numbers, or production business data.
+These screens use a sample store with made-up data.
 
-| Dashboard | POS billing |
+| Dashboard | Billing |
 | --- | --- |
-| ![SmartPOS dashboard overview](showcase/dashboard.webp) | ![SmartPOS POS billing with a demo cart](showcase/pos-billing.webp) |
+| ![SmartPOS dashboard with sales for the last 7 days](showcase/dashboard.webp) | ![SmartPOS billing screen with a customer and two items](showcase/billing.webp) |
 
-| Products and inventory | Customers and suppliers |
+| Products and stock | Bills |
 | --- | --- |
-| ![SmartPOS products workspace](showcase/products.webp) | ![SmartPOS customer and supplier workspace](showcase/customers-suppliers.webp) |
+| ![SmartPOS products list with stock](showcase/products.webp) | ![SmartPOS saved bills](showcase/bills.webp) |
 
-| Saved bills and analytics | Reports |
+| Credit due | Orders and delivery |
 | --- | --- |
-| ![SmartPOS saved bills and analytics](showcase/saved-bills.webp) | ![SmartPOS reports workspace](showcase/reports.webp) |
+| ![SmartPOS customers with credit due](showcase/credit-due.webp) | ![SmartPOS orders from new to delivered](showcase/orders.webp) |
 
-| Calendar and reminders |
-| --- |
-| ![SmartPOS calendar and reminders](showcase/calendar-notes.webp) |
+| Cash drawer | Bill designs |
+| --- | --- |
+| ![SmartPOS cash drawer count](showcase/cash-drawer.webp) | ![SmartPOS thermal and A4 bill designs](showcase/bill-designs.webp) |
 
-## Download and upgrade safely
+## Installing for the first time
 
-1. Open the latest release and download the signed Windows installer.
-2. Close or hold active sales and take a backup before upgrading an existing store.
-3. Install SmartPOS over the existing installation when Windows prompts you.
-4. Use **Settings -> Updates** or the top-bar update control to check the official signed channel.
+1. [Download the installer](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/Elathi-SmartPOS-Setup.exe) on the shop's main billing PC. No administrator password is needed.
+2. If your browser says the file **isn't commonly downloaded**, open the download's menu and choose **Keep** (in Edge: **Keep anyway**).
+3. If a blue **Windows protected your PC** screen appears, click **More info**, then **Run anyway**.
+4. If nothing seems to happen, look for the installer on the taskbar; it can open behind the browser.
 
-SmartPOS verifies signed updates before installation and preserves the local store database during the normal in-place upgrade path. Do not use installers or signatures from unofficial mirrors.
+These warnings appear because SmartPOS is new and its installer does not yet carry a paid publisher certificate. They do not mean anything is wrong with the file. Download SmartPOS only from this page or [elathi.xyz](https://elathi.xyz/).
 
-## Browser preview
+**System requirements:** Windows 10 or 11, 64-bit. The offline voice pack also needs a processor with AVX2 (most PCs from 2015 onwards) and about 600 MB of free space.
 
-The optional `?showcase=1` browser preview is a read-only visual demonstration using fictional records. It is intended for product review and screenshots, not business operations or data storage.
+## Updating
 
-## Support and product links
+SmartPOS checks for updates by itself. Open **Settings → Updates**, or use the update button at the top, and install from there. The app checks every update is genuine before installing it, and your shop's data stays on the PC. When you have counters, update the main PC first, then each counter.
 
-- **Signed downloads and release history:** [GitHub Releases](https://github.com/Elathi/elathi-smartpos-releases/releases)
-- **Stable updater manifest:** [`latest.json`](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/latest.json)
+## Help
+
 - **Product website:** [elathi.xyz](https://elathi.xyz/)
 - **Contact and support:** [elathi.xyz/contact](https://elathi.xyz/contact/)
+- **All versions:** [Releases](https://github.com/Elathi/elathi-smartpos-releases/releases)
 
 <!-- SMARTPOS_LANDING_END -->
 
 <!-- SMARTPOS_RELEASES_MANAGED_START -->
-## Signed releases
+## Latest version
 
-The latest stable release is **v4.15.0** (overview refreshed 2026-10-15 UTC).
+**v4.16.0** (page updated 2026-10-15 UTC)
 
-- [Download the latest signed Windows release](https://github.com/Elathi/elathi-smartpos-releases/releases/latest)
-- [Stable update manifest](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/latest.json)
-- [Read the current release notes](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v4.15.0)
-- Existing installations can use **Settings -> Updates** or the global update control.
-- SmartPOS verifies the signed updater and preserves the local store database during in-place upgrades.
-
-Release-specific compatibility and migration notes are maintained in the matching GitHub release body. If this repository has no published release yet, the release owner should leave this section at its pre-release state until the first signed publication completes.
+- [Download the installer](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/Elathi-SmartPOS-Setup.exe)
+- [What's new in v4.16.0](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v4.16.0)
+- Already installed? Update from **Settings → Updates** inside SmartPOS.
 
 <!-- SMARTPOS_RELEASES_MANAGED_END -->
