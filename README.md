@@ -7,7 +7,7 @@ Elathi SmartPOS runs billing, GST bills, stock, purchases, customer credit, orde
 
 ### [⬇ Download for Windows](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/Elathi-SmartPOS-Setup.exe)
 
-Latest version **v4.17.0** · Windows 10 or 11 (64-bit) · Free trial · [What's new](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v4.17.0) · [elathi.xyz](https://elathi.xyz/)
+Latest version **v4.17.2** · Windows 10 or 11 (64-bit) · Free trial · [What's new](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v4.17.2) · [elathi.xyz](https://elathi.xyz/)
 
 ## What it does
 
@@ -65,10 +65,10 @@ SmartPOS checks for updates by itself. Open **Settings → Updates**, or use the
 <!-- SMARTPOS_RELEASES_MANAGED_START -->
 ## Latest version
 
-**v4.17.0** (page updated 2026-10-19 UTC)
+**v4.17.2** (page updated 2026-10-19 UTC)
 
 - [Download the installer](https://github.com/Elathi/elathi-smartpos-releases/releases/latest/download/Elathi-SmartPOS-Setup.exe)
-- [What's new in v4.17.0](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v4.17.0)
+- [What's new in v4.17.2](https://github.com/Elathi/elathi-smartpos-releases/releases/tag/v4.17.2)
 - Already installed? Update from **Settings → Updates** inside SmartPOS.
 
 <!-- SMARTPOS_RELEASES_MANAGED_END -->
